@@ -1,0 +1,23 @@
+[package]
+name = "toy-payments-engine2"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rust_decimal = {version="1.35.0", features = [ "serde", "serde-with-float"]}
+im = "15.1.0"
+csv = "1.1"
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
+test_utils = {path = "test_utils"} 
+
+[[bin]]
+name = "toy_payments_bin"
+path = "src/main.rs"
+
+[lib]
+name = "toy_payments_lib"
+path = "src/lib/lib.rs"
