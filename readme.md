@@ -31,6 +31,8 @@ Transactions can be retrospectively accepted if they were rejected after a dispu
 ## Comments
 im trait used for immutable datatypes
 
+Version from 2 years ago https://github.com/HPRIOR/toy-payments-engine. Not sure which I like more. Probably dislike both an equal amount.
+
 
 
 
